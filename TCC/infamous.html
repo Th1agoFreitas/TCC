@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inFAMOUS Second Son - Guia Do Sonysmo</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <style>
+        *{margin:0;padding:0;}
+        body{background:#00008B; color:#00008B; font: 17px Cambria, Cambria;}
+        #box_geral{width:500px; margin:0 auto; display:block; background:#00008B; border-radius:3px; margin-top:20px; padding:10px;}
+        #box_geral span{display:block; cursor:pointer; font-size:17px; text-align:center;background:#B0C4DE; color:#000; margin: 6px 0; padding:6px; border-radius:3px;}
+        .box{padding:10px;}
+        
+    </style>
+
+    <script type="text/javascript">
+        jQuery.fn.toggleText = function(a,b) {
+        return this.html(this.html().replace(new RegExp("("+a+"|"+b+")"),function(x){return(x==a)?b:a;}));
+        }
+        
+        $(document).ready(function(){
+        $('.box1').before('<span><img width=20 src=platina.png>. Aproveite seu Poderes</span>');
+        $('.box1').css('display', 'none')
+		$('.box2').before('<span><img width=20 src=prata.png>. Imbatível</span>');
+        $('.box2').css('display', 'none')
+		$('.box3').before('<span><img width=20 src=bronze.png>. Sacrifício</span>');
+        $('.box3').css('display', 'none')
+		$('.box4').before('<span><img width=20 src=bronze.png>.  Implacável</span>');
+        $('.box4').css('display', 'none')
+		$('.box5').before('<span><img width=20 src=bronze.png>. Moderação</span>');
+        $('.box5').css('display', 'none')
+		$('.box6').before('<span><img width=20 src=bronze.png>. Malícia</span>');
+        $('.box6').css('display', 'none')
+		$('.box7').before('<span><img width=20 src=bronze.png>. Coragem</span>');
+        $('.box7').css('display', 'none')
+		$('.box8').before('<span><img width=20 src=bronze.png>. Desobediência</span>');
+        $('.box8').css('display', 'none')
+		$('.box9').before('<span><img width=20 src=bronze.png>.  Misericórdia</span>');
+        $('.box9').css('display', 'none')
+		$('.box10').before('<span><img width=20 src=bronze.png>. Vingança</span>');
+        $('.box10').css('display', 'none')
+		$('.box11').before('<span><img width=20 src=bronze.png>.  Justiça</span>');
+        $('.box11').css('display', 'none')
+		$('.box12').before('<span><img width=20 src=bronze.png>. Domínio</span>');
+        $('.box12').css('display', 'none')
+		$('.box13').before('<span><img width=20 src=ouro.png>. Sacrifício</span>');
+        $('.box13').css('display', 'none')
+		$('.box14').before('<span><img width=20 src=ouro.png>.  Rebelião</span>');
+        $('.box14').css('display', 'none')
+		$('.box15').before('<span><img width=20 src=bronze.png>. Todo mundo Solto</span>');
+        $('.box15').css('display', 'none')
+		$('.box16').before('<span><img width=20 src=bronze.png>. Chega de Cartezes</span>');
+        $('.box16').css('display', 'none')
+		$('.box17').before('<span><img width=20 src=bronze.png>. Todo mundo é Crítico</span>');
+        $('.box17').css('display', 'none')
+		$('.box18').before('<span><img width=20 src=bronze.png>. Drogas, tô Fora!</span>');
+        $('.box18').css('display', 'none')
+		$('.box19').before('<span><img width=20 src=bronze.png>. Liberdade de expressão</span>');
+        $('.box19').css('display', 'none')
+		$('.box20').before('<span><img width=20 src=bronze.png>. Do Que Você me Chamou?</span>');
+        $('.box20').css('display', 'none')
+		$('.box21').before('<span><img width=20 src=bronze.png>. Alguém do seu Tamanho</span>');
+		$('.box21').css('display', 'none')
+		$('.box22').before('<span><img width=20 src=bronze.png>. Caminha que Passa</span>');
+        $('.box22').css('display', 'none')
+		$('.box23').before('<span><img width=20 src=bronze.png>. Agonizando</span>');
+        $('.box23').css('display', 'none')
+		$('.box24').before('<span><img width=20 src=prata.png>. Herói Verdadeiro</span>');
+        $('.box24').css('display', 'none')
+		$('.box25').before('<span><img width=20 src=prata.png>. Infame</span>');
+        $('.box25').css('display', 'none')
+		$('.box26').before('<span><img width=20 src=bronze.png>. Bipe! Bipe! Bipe!</span>');
+        $('.box26').css('display', 'none')
+		$('.box27').before('<span><img width=20 src=prata.png>. Estilhaçando</span>');
+        $('.box27').css('display', 'none')
+		$('.box28').before('<span><img width=20 src=bronze.png>. Nada Para Ver Aqui</span>');
+        $('.box28').css('display', 'none')
+		$('.box29').before('<span><img width=20 src=prata.png>. Cego</span>');
+        $('.box29').css('display', 'none')
+		$('.box30').before('<span><img width=20 src=prata.png>.  Nos Trilhos</span>');
+        $('.box30').css('display', 'none')
+		$('.box31').before('<span><img width=20 src=prata.png>. Disfarce Descoberto</span>');
+        $('.box31').css('display', 'none')
+		$('.box32').before('<span><img width=20 src=prata.png>. Big Brother</span>');
+        $('.box32').css('display', 'none')
+		$('.box33').before('<span><img width=20 src=prata.png>. Pintando Dentro da Linha</span>');
+        $('.box33').css('display', 'none')
+		$('.box34').before('<span><img width=20 src=bronze.png>. Trote</span>');
+        $('.box34').css('display', 'none')
+		$('.box35').before('<span><img width=20 src=bronze.png>. Alô, Operadora</span>');
+		$('.box35').css('display', 'none')
+		$('.box36').before('<span><img width=20 src=prata.png>. Último Confronto</span>');
+        $('.box36').css('display', 'none')
+		$('.box37').before('<span><img width=20 src=bronze.png>. Menos Um</span>');
+		$('.box37').css('display', 'none')
+		$('.box38').before('<span><img width=20 src=bronze.png>. Jogando em Casa</span>');
+		$('.box38').css('display', 'none')
+		$('.box39').before('<span><img width=20 src=prata.png>. Limpeza Total</span>');
+		$('.box39').css('display', 'none')
+		$('.box40').before('<span><img width=20 src=bronze.png>. Carnificina Total</span>');
+        $('.box40').css('display', 'none')
+		$('.box41').before('<span><img width=20 src=bronze.png>. Como um Cometa</span>');
+		$('.box41').css('display', 'none')
+		$('.box42').before('<span><img width=20 src=bronze.png>. Continue Assim</span>');
+		$('.box42').css('display', 'none')
+		$('.box43').before('<span><img width=20 src=bronze.png>. Coloque Isso em Qualquer Lugar</span>');
+		$('.box43').css('display', 'none')
+		$('.box44').before('<span><img width=20 src=bronze.png>. Truque de Mestre</span>');
+		$('.box44').css('display', 'none')
+		$('.box45').before('<span><img width=20 src=bronze.png>. Ataque Duplo de Fumaça em Sequência</span>');
+		$('.box45').css('display', 'none')
+		$('.box46').before('<span><img width=20 src=bronze.png>. Pastilha Para Tosse</span>');
+		$('.box46').css('display', 'none')
+		$('.box47').before('<span><img width=20 src=bronze.png>. Dê orgulho a Fetch</span>');
+		$('.box47').css('display', 'none')
+		$('.box48').before('<span><img width=20 src=bronze.png>. Força excessiva</span>');
+		$('.box48').css('display', 'none')
+        $('span', '#box_geral').click(function() {
+        $(this).next().slideToggle('slow')
+        .siblings('.tgl:visible').slideToggle('fast');
+        // aqui começa o funcionamento do plugin
+		$(this).toggleText('Mostrar','Esconder')
+        .siblings('span').next('.tgl:visible').prev()
+		.toggleText('Mostrar','Esconder')
+        });
+        })
+    </script>
+<font color=white face="Cambria">
+<br><h1>GUIA DO SONYSMO</h1><br>
+<center>
+<body bgcolor=#00008B>
+<img width=20% src="infamous.jpg">
+<h1>inFAMOUS Second Son</h1>
+<br>
+<h3>
+PS4
+<br>
+</h3>
+<br><a href=https://store.playstation.com/pt-br/product/UP9000-CUSA00223_00-SECONDSONSHIP000> <font color=white> Link PS Store</a><br>
+<br>
+<br><img  height=15 src=horas_de_jogo.png> 15-20h</td><br>
+<br><img height=25 src=16.jpg><br>
+<br>
+<br><h2>SINOPSE</h2><br>
+Cercados por uma sociedade que os teme, os super-humanos são impiedosamente caçados e presos pelo Departamento de Proteção Unificada. Entre na Seattle sitiada como Delsin Rowe, que recentemente descobriu seu poder super-humano e agora é capaz de combater o opressivo DPU. Aproveite o seu poder enquanto escolhe como usará incríveis habilidades até o limite e testemunhe as consequências das suas ações à medida que elas afetam a cidade e as pessoas ao seu redor.
+<br><br>
+• Experimente a história de uma nova origem na popular franquia inFAMOUS que vai jogá-lo em uma aventura rica e aberta que oferece uma visão realista dos seres super-humanos.
+<br>
+<br><h2>MÍDIA FÍSICA<h2><br>
+<a href=https://www.amazon.com.br/Infamous-Second-Son-Hits-PlayStation/dp/B07L5BD46Q>
+<img width=130 src=amazon.png>
+<br>
+<a href=https://www.americanas.com.br/produto/3173708429?WT.srch=1&opn=YSMESP&loja=40467790000134&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&acc=e789ea56094489dffd798f86ff51c7a9&i=600a4c9b49f937f6255ccd99&o=6078ed3af8e95eac3d88f637&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlIWfhVe6rGSkUwakqmxEUAjs8tgDDN6T3vxdIbadBnP6ZowuWLZIfMaAnPLEALw_wcB>
+<img width=130 src=ame.png>
+<br>
+<a href=https://www.casasbahia.com.br/ps4-infamous-second-son-10252915/p/10252915?utm_medium=Cpc&utm_source=google_freelisting&IdSku=10252915&idLojista=85657>
+<img width=130 src=bahia.png>
+<br>
+<a href=https://www.submarino.com.br/produto/3173708429?loja=40467790000134&epar=bp_pl_00_go_g35169&opn=XMLGOOGLE&WT.srch=1&acc=d47a04c6f99456bc289220d5d0ff208d&i=6062de9b49f937f6252437ac&o=607b7247f8e95eac3da086ed&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlIS8L8l4juoaOrYSsY6gigfaSYkdhGZ03Lfbd6XiG9aA_pjYzj3rC8aAqAUEALw_wcB>
+<img width=130 src=sub.png></a>
+</td>
+<br>
+<h2>
+<br>REVIEWS<br>
+<br><a href=https://br.ign.com/infamous-second-son/1587/review/review-infamous-second-son><font color=white>IGN<br></a>
+<br><a href=https://www.techtudo.com.br/review/infamous-second-son.html><font color=white> TechTudo<br></a>
+<br><a href=https://www.metacritic.com/game/playstation-4/infamous-second-son><font color=white>Metacritic<br></a>
+<br><a href=https://www.theenemy.com.br/infamous-second-son/infamous-second-son-critica><font color=white>The Enemy<br></a>
+</h2> 
+<br>
+<h2>
+<br>TROFÉUS<br>
+<br>
+<br>inFAMOUS Second Son tem 48 troféus sendo: 1 platina, 2 troféus de ouro, 11 troféus de prata e 34 troféus de bronze.<br>
+<br>
+</h2>
+<body>
+    <div id="box_geral">
+		<div class="box1">
+		<p>Como todos nós sabemos, para este conquiste todos os troféus do jogo.</p> 
+		</div>
+		<div class="box2">
+		<p>Complete a campanha na dificuldade Especialista.</p>
+		</div>
+		<div class="box3">
+		<p>Relativo a história. Será obtido enquanto faz escolhas do Karma Bom.</p>
+		</div>
+		<div class="box4">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Ruim.</p>
+        </div>
+		<div class="box5">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Bom.</p>
+        </div>
+		<div class="box6">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Ruim.</p>
+        </div>
+		<div class="box7">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Bom.</p>
+        </div>
+		<div class="box8">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Ruim.</p>
+        </div>
+		<div class="box9">
+        <p>﻿﻿﻿﻿﻿﻿Relativo a história. Será obtido enquanto faz escolhas do Karma Bom.</p>
+        </div>
+		<div class="box10">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Ruim.</p>
+        </div>
+		<div class="box11">
+        <p>﻿Relativo a história. Será obtido enquanto faz escolhas do Karma Bom.</p>
+        </div>
+		<div class="box12">
+        <p>Relativo a história. Será obtido enquanto faz escolhas do Karma Ruim.</p>
+        </div>
+		<div class="box13">
+        <p>Termine o modo história com o máximo de Karma Bom, se caso está perto do fim e não estiver no máximo do Karma Bom, basta fazer missões secundárias que estão em azul e ser um bom Samaritano, dúvidas veja o troféu "Herói Verdadeiro".</p>
+        </div>
+		<div class="box14">
+        <p>﻿﻿﻿Termine o modo história com o máximo de Karma Ruim, se caso está perto do fim e não estiver no máximo do Karma Ruim, basta fazer missões secundárias que estão em vermelho, dúvidas veja o troféu "Infame".</p>
+		</div>
+		<div class="box15">
+        <p>Campanha Karma Bom: Basta resgatar 10 suspeitos nas celas espalhadas pela cidade. Alguns troféus vão depender de qual Karma você vai seguir, Bom ou Ruim. Dito isso, este troféu por exemplo só é feito na jogada que fizer o Karma Bom.</p>
+        </div>
+		<div class="box16">
+        <p>Campanha Karma Ruim: Basta matar 10 pessoas com Placas. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box17">
+        <p>Campanha Karma Ruim: Basta matar 10 pessoas com Placas de greve. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box18">
+        <p>Campanha Karma Bom: Basta matar 10 traficantes. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box19">
+        <p>Campanha Karma Ruim: Basta matar 10 grupos de grevistas. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box20">
+        <p>Campanha Karma Ruim: Basta matar 10 membros da Gangue Akulan. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box21">
+        <p>Campanha Karma Bom: Basta resgatar 10 condutores fugitivos de multidões enfurecidas. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box22">
+        <p>Campanha Karma Bom: Basta curar 10 civis feridos. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box23">
+        <p>Campanha Karma Bom: Basta matar 10 inimigos feridos. Para mais informações veja o troféu "Todo Mundo Solto".</p>
+        </div>
+		<div class="box24">
+        <p>Campanha Karma Bom: Basta chegar no Level 05 de status de karma, para isto faça o seguinte:
+		<br><br>
+		– Sempre jogue as missões em azul, pois é algo que virá normalmente;<br>
+		– Sempre cure os civis no chão;<br>
+		– Sempre "prenda" os inimigos que se render, ou que estão no chão;<br>
+		- Complete todas as atividades de apreensão de drogas;<br>
+		– Acerte a perna dos inimigos com Neon;<br>
+		– Resgate todos suspeitos presos;<br>
+		– Cure prisioneiros que estão sendo atacados.</p>
+        </div>
+		<div class="box25">
+        <p>Campanha Karma Ruim: Basta chegar no Level 05 de status de karma, para isto faça o seguinte:
+		<br><br>
+		– Sempre jogue as missões em vermelho, pois é algo que virá normalmente;<br>
+		– Sempre matar civis no chão;<br>
+		– Matar policiais e civis;<br>
+		– Matar músicos;<br>
+		– Matar grupos ativistas;<br>
+		– Matar membros de gangues Akuran;<br>
+		– Matar D.U.P. inimigos;<br>
+		– Sempre executar inimigos quando ele se render, ou estiver no chão;<br>
+		– Acerte inimigos na cabeça com o poder de néon;<br>
+		– Matar civis presos;<br>
+		– Matar prisioneiros sendo atacados por multidões.</p>
+        </div>
+		<div class="box26">
+        <p>Colete metade dos Estilhaços de Explosão espalhados pelo mapa. Veja o troféu "Estilhaçando".</p>
+        </div>
+		<div class="box27">
+        <p>Colete todos Estilhaços de Explosão espalhados pelo mapa. Para que você possa ver a localização de todos os coletáveis, você precisará destruir as Centrais de Comando D.U.P. do local em que está para que elas sejam mostradas a você em seu Mapa.</p>
+        </div>
+		<div class="box28">
+        <p>Destrua metade das Câmeras de Segurança espalhadas pelo mapa. Veja o troféu "Cego".</p>
+        </div>
+		<div class="box29">
+        <p>Destrua todas as Câmeras de Segurança espalhadas pelo mapa. Para que você possa ver a localização de todos os coletáveis, você precisará destruir as Centrais de Comando D.U.P. do local em que está para que elas sejam mostradas a você em seu Mapa.</p>
+        </div>
+		<div class="box30">
+        <p>Colete todos os registros de áudio de informantes no mapa, para que você possa ver a localização de todos os coletáveis, você precisará destruir as Centrais de Comando D.U.P. do local em que está para que elas sejam mostradas a você em seu Mapa.</p>
+        </div>
+		<div class="box31">
+        <p>Mate todos os agentes secretos da D.U.P., para que você possa ver a localização de todos os coletáveis, você precisará destruir as Centrais de Comando D.U.P. do local em que está para que elas sejam mostradas a você em seu Mapa.</p>
+        </div>
+		<div class="box32">
+        <p>Destrua todas as Câmeras Secretas espalhadas pelo mapa, para que você possa ver a localização de todos os coletáveis, você precisará destruir as Centrais de Comando D.U.P. do local em que está para que elas sejam mostradas a você em seu Mapa.</p>
+        </div>
+		<div class="box33">
+        <p>Complete todas as pichações de Stencil, elas podem ser avistadas como um símbolo de Spray no mapa.</p>
+        </div>
+		<div class="box34">
+        <p>Complete um Confronto de Distrito. Caso precise de ajuda veja os vídeos abaxo.</p>
+        </div>
+		<div class="box35">
+        <p>Complete 6 Confrontos de Distrito. Caso precise de ajuda veja os vídeos abaxo.</p>
+        </div>
+		<div class="box36">
+        <p>Complete 13 Confrontos de Distrito. Caso precise de ajuda veja os vídeos abaxo.</p>
+        </div>
+		<div class="box37">
+        <p>Expulse a D.U.P. de um Distrito.</p>
+        </div>
+		<div class="box38">
+        <p>Expulse a D.U.P. de 6 Distritos.</p>
+        </div>
+		<div class="box39">
+        <p>Expulse a D.U.P. de 13 Distritos.</p>
+        </div>
+		<div class="box40">
+        <p>Destrua 5 carros em 5 segundos. Maximizar a habilidade "Cinder Missile" será muito útil para conquistar este troféu.</p>
+        </div>
+		<div class="box41">
+        <p>Execute o Cometa acima de 170 metros. Você só pode fazer isso depois de acabar a história, suba em algum prédio e use a habilidade "Double Air Surge" para ganhar altura e execute o "Cometa".</p>
+        </div>
+		<div class="box42">
+        <p>Fique no ar por mais de 45 segundos, ou seja, chegue em um ponto alto do mapa e pule com Botão X e segure para planar.</p>
+        </div>
+		<div class="box43">
+        <p>Mate 10 inimigos ao detonar caixas vermelhas que explodem, em todas as missões há algumas dessas caixas, apenas espere os inimigos chegarem perto e "atirem" neon para que ela exploda e mate-o.</p>
+        </div>
+		<div class="box44">
+        <p>﻿﻿﻿﻿﻿Mate um inimigo usando três fontes de poder diferentes, lembrando que temos 4 poderes no jogo:
+		<br><br>
+		Fumaça, que é encontrada em chaminés, veículos destruídos.<br>
+		Neon, que é encontrada em letreiros;<br>
+		Vídeo, que é encontrada em antenas parabólicas, TVs;<br>
+		Concreto, que é encontrada em Inimigos D.U.P. caídos, disponível apenas depois de terminar a história.</p>
+        </div>
+		<div class="box45">
+        <p>Use as saídas de ar sem tocar o chão e caia sobre um inimigo como um Cometa.</p>
+        </div>
+		<div class="box46">
+        <p>Execute o Cometa em 3 inimigos que estejam tossindo. A forma mais fácil é fazendo ele em um grupo de traficantes atirando a Bomba de Enxofre, poder da Fumaça, e logo em seguida atacando-os com o Cometa.</p>
+        </div>
+		<div class="box47">
+        <p>Acerte 3 pontos fracos de inimigos com feixe de neon (pontos que ficam em evidencia no inimigo) em 6 segundos.</p>
+        </div>
+		<div class="box48">
+        <p>Você precisará matar apenas um inimigo com um Ataque de "Sequência Cármica", para este use o Neon no Karma Bom e sempre acerte na pena de 7 inimigos ou faça no Karma Ruim matando eles sem morrer ou ser incapacitado, feito isto basta apertar Direcional Digital para baixo para ativar e matar apenas UM INIMIGO.</p>
+        </div>
+        </div>
+</body>
+<center>
+<h2>
+<br>GUIA DE COLETÁVEIS<br>
+</h2>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLw8qrSr2ZYiSvVZbMTqtWs4NNJk_DCRWH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br><h2>INFORMAÇÕES DO JOGO</h2><br>
+<br>SÉRIE: inFAMOUS<br>
+<br>ESTÚDIO: Sucker Punch Productions<br>
+<br>LANÇAMENTO: 21/03/2014<br>
+<br>PLATAFORMA: PlayStation 4<br>
+<br>GÊNERO: Mundo Aberto, Ação e Aventura<br>
+<br>TAMANHO: 21.50 GB<br>
+<br>HORAS DE JOGO ESTIMADAS(EXCLUINDO EXPANSÕES): 15-20 horas<br>
+</center>
+</html>

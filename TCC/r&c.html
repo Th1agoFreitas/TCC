@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratchet & Clank - Guia Do Sonysmo</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <style>
+        *{margin:0;padding:0;}
+        body{background:#00008B; color:#00008B; font: 17px Cambria, Cambria;}
+        #box_geral{width:500px; margin:0 auto; display:block; background:#00008B; border-radius:3px; margin-top:20px; padding:10px;}
+        #box_geral span{display:block; cursor:pointer; font-size:17px; text-align:center;background:#B0C4DE; color:#000; margin: 6px 0; padding:6px; border-radius:3px;}
+        .box{padding:10px;}
+        
+    </style>
+
+    <script type="text/javascript">
+        jQuery.fn.toggleText = function(a,b) {
+        return this.html(this.html().replace(new RegExp("("+a+"|"+b+")"),function(x){return(x==a)?b:a;}));
+        }
+        
+        $(document).ready(function(){
+        $('.box1').before('<span><img width=20 src=platina.png>. O Herói dos Heróis</span>');
+        $('.box1').css('display', 'none')
+		$('.box2').before('<span><img width=20 src=ouro.png>.	O Fim do Começo</span>');
+        $('.box2').css('display', 'none')
+		$('.box3').before('<span><img width=20 src=ouro.png>. Supertrocador</span>');
+        $('.box3').css('display', 'none')
+		$('.box4').before('<span><img width=20 src=prata.png>. 	Desafiador</span>');
+        $('.box4').css('display', 'none')
+		$('.box5').before('<span><img width=20 src=prata.png>. Explorador Máximo</span>');
+        $('.box5').css('display', 'none')
+		$('.box6').before('<span><img width=20 src=prata.png>. 	Arsenal Completo</span>');
+        $('.box6').css('display', 'none')
+		$('.box7').before('<span><img width=20 src=prata.png>. Mestre da Guerra</span>');
+        $('.box7').css('display', 'none')
+		$('.box8').before('<span><img width=20 src=prata.png>. Totalmente Excelente</span>');
+        $('.box8').css('display', 'none')
+		$('.box9').before('<span><img width=20 src=prata.png>. Bem Arrumado</span>');
+        $('.box9').css('display', 'none')
+		$('.box10').before('<span><img width=20 src=prata.png>. Mago da Tecnologia</span>');
+        $('.box10').css('display', 'none')
+		$('.box11').before('<span><img width=20 src=prata.png>. Colecionador de Cérebros</span>');
+        $('.box11').css('display', 'none')
+		$('.box12').before('<span><img width=20 src=prata.png>. Vai Speed Ratcht, Vai!</span>');
+        $('.box12').css('display', 'none')
+		$('.box13').before('<span><img width=20 src=prata.png>. Arrombador de Cofre</span>');
+        $('.box13').css('display', 'none')
+		$('.box14').before('<span><img width=20 src=prata.png>. Maximizando o Potencial</span>');
+        $('.box14').css('display', 'none')
+		$('.box15').before('<span><img width=20 src=bronze.png>. Só Treinando</span>');
+        $('.box15').css('display', 'none')
+		$('.box16').before('<span><img width=20 src=bronze.png>. Era Uma Vez Um Pequeno Robô</span>');
+        $('.box16').css('display', 'none')
+		$('.box17').before('<span><img width=20 src=bronze.png>. O Salvador</span>');
+        $('.box17').css('display', 'none')
+		$('.box18').before('<span><img width=20 src=bronze.png>. Para as Corridas</span>');
+        $('.box18').css('display', 'none')
+		$('.box19').before('<span><img width=20 src=bronze.png>. Você é um Patrulheiro Agora</span>');
+        $('.box19').css('display', 'none')
+		$('.box20').before('<span><img width=20 src=bronze.png>. O Importante é Vencer!</span>');
+        $('.box20').css('display', 'none')
+		$('.box21').before('<span><img width=20 src=bronze.png>. Quem é a Snagglebeast do Papai?</span>');
+		$('.box21').css('display', 'none')
+		$('.box22').before('<span><img width=20 src=bronze.png>. Céééééééérebros</span>');
+        $('.box22').css('display', 'none')
+		$('.box23').before('<span><img width=20 src=bronze.png>. Abati a Sua Nave</span>');
+        $('.box23').css('display', 'none')
+		$('.box24').before('<span><img width=20 src=bronze.png>. A Família Zurkon</span>');
+        $('.box24').css('display', 'none')
+		$('.box25').before('<span><img width=20 src=bronze.png>. Hidroexplosivo!</span>');
+        $('.box25').css('display', 'none')
+		$('.box26').before('<span><img width=20 src=bronze.png>. Óxido Feroz</span>');
+        $('.box26').css('display', 'none')
+		$('.box27').before('<span><img width=20 src=bronze.png>. Radical</span>');
+        $('.box27').css('display', 'none')
+		$('.box28').before('<span><img width=20 src=bronze.png>. Mudando de Ideia</span>');
+        $('.box28').css('display', 'none')
+		$('.box29').before('<span><img width=20 src=prata.png>. Mais Rápido que um Ameboide</span>');
+        $('.box29').css('display', 'none')
+		$('.box30').before('<span><img width=20 src=prata.png>. Trovão de Kalebo</span>');
+        $('.box30').css('display', 'none')
+		$('.box31').before('<span><img width=20 src=prata.png>. Gladiador de Kerwan</span>');
+        $('.box31').css('display', 'none')
+		$('.box32').before('<span><img width=20 src=bronze.png>. Esmaga-Clank</span>');
+        $('.box32').css('display', 'none')
+		$('.box33').before('<span><img width=20 src=bronze.png>. Parece que Estamos Afundando</span>');
+        $('.box33').css('display', 'none')
+		$('.box34').before('<span><img width=20 src=bronze.png>. Odeio Lâmpadas</span>');
+        $('.box34').css('display', 'none')
+		$('.box35').before('<span><img width=20 src=bronze.png>. Não é o Meu Trabalho</span>');
+		$('.box35').css('display', 'none')
+		$('.box36').before('<span><img width=20 src=bronze.png>. Asas Indomáveis</span>');
+        $('.box36').css('display', 'none')
+		$('.box37').before('<span><img width=20 src=bronze.png>. Quando Ovelhas Voarem</span>');
+		$('.box37').css('display', 'none')
+		$('.box38').before('<span><img width=20 src=bronze.png>. De Robôs de Guerra a Arados</span>');
+		$('.box38').css('display', 'none')
+		$('.box39').before('<span><img width=20 src=bronze.png>. Tubarões São um Saco</span>');
+		$('.box39').css('display', 'none')
+		$('.box40').before('<span><img width=20 src=bronze.png>. Destruidor de Reputação</span>');
+        $('.box40').css('display', 'none')
+		$('.box41').before('<span><img width=20 src=bronze.png>. Até tu, Copérnico?</span>');
+		$('.box41').css('display', 'none')
+		$('.box42').before('<span><img width=20 src=bronze.png>. Lombax Preguiçoso</span>');
+		$('.box42').css('display', 'none')
+		$('.box43').before('<span><img width=20 src=bronze.png>. Morte na Pista de Dança</span>');
+		$('.box43').css('display', 'none')
+		$('.box44').before('<span><img width=20 src=bronze.png>. Trocador em Treinamento</span>');
+		$('.box44').css('display', 'none')
+		$('.box45').before('<span><img width=20 src=bronze.png>. Modificador</span>');
+		$('.box45').css('display', 'none')
+		$('.box46').before('<span><img width=20 src=bronze.png>. Número Recorde!</span>');
+		$('.box46').css('display', 'none')
+		$('.box47').before('<span><img width=20 src=bronze.png>. Um Bom Negócio</span>');
+		$('.box47').css('display', 'none')
+        $('span', '#box_geral').click(function() {
+        $(this).next().slideToggle('slow')
+        .siblings('.tgl:visible').slideToggle('fast');
+        // aqui começa o funcionamento do plugin
+		$(this).toggleText('Mostrar','Esconder')
+        .siblings('span').next('.tgl:visible').prev()
+		.toggleText('Mostrar','Esconder')
+        });
+        })
+    </script>
+<font color=white face="Cambria">
+<br><h1>GUIA DO SONYSMO</h1><br>
+<center>
+<body bgcolor=#00008B>
+<img width=20% src="r&c.jpg">
+<h1>Ratchet & Clank</h1>
+<br>
+<h3>
+PS4
+<br>
+</h3>
+<br><a href=https://www.playstation.com/pt-br/games/ratchet-and-clank/> <font color=white> Link PS Store</a><br>
+<br>
+<br><img  height=15 src=horas_de_jogo.png> 20-25h</td><br>
+<br><img height=25 src=10.jpg><br>
+<br>
+<br><h2>SINOPSE</h2><br>
+Tanto faz se você é fã de longa data ou acabou de conhecer a série, está na hora de se preparar para uma viagem inesquecível pelo universo.
+Reviva a história alucinante que deu origem a esta duplinha destemida com uma narrativa nova e mais aprofundada. Você vai ter mais ação, novos chefões para enfrentar, visuais espetaculares e a dublagem sensacional da animação de 2016, Ratchet & Clank™.
+Com base nos elementos do jogo original de Ratchet & Clank (PS2™), esta versão apresenta vários planetas inéditos, nova jogabilidade para Clank, novas sequências de voo e muito mais — tudo com visuais criados do zero para aproveitar a potência do PS4.<br>
+<br><h2>MÍDIA FÍSICA<h2><br>
+<a href=https://www.amazon.com.br/Ratchet-Clank-Hits-PlayStation-4/dp/B07L5BP2L1/ref=asc_df_B07L5BP2L1/?tag=googleshopp00-20&linkCode=df0&hvadid=379725666133&hvpos=&hvnetw=g&hvrand=8418061950390447865&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001646&hvtargid=pla-809696149902&psc=1>
+<img width=130 src=amazon.png>
+<br>
+<a href=https://www.americanas.com.br/produto/134137109?opn=YSMESP&sellerid=32782507000130&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5d16d62449f937f625c90207&o=5c6307106c28a3cb506899ad&gclid=CjwKCAjwn6GGBhADEiwAruUcKh5c9uR6sGg-wY3HMucdjXIAqe-YjmpPphr7fBYkueP0TmTuKWO7UBoCepMQAvD_BwE>
+<img width=130 src=ame.png>
+<br>
+<a href=https://www.casasbahia.com.br/jogo-ratchet-clank-playstation-hits-ps4-14213142/p/14213142?utm_medium=Cpc&utm_source=GP_PLA&IdSku=14213142&idLojista=10037&utm_campaign=game_smart-shopping&gclid=CjwKCAjwwqaGBhBKEiwAMk-FtAMgR3tX93l2JTSiWzjvgpwIXR0aD2ATd6BQI5ZR1dIcMox4qLAuvhoC458QAvD_BwE>
+<img width=130 src=bahia.png>
+<br>
+<a href=https://www.submarino.com.br/produto/134137109?opn=XMLGOOGLE&sellerid=32782507000130&epar=bp_pl_00_go_g35169&WT.srch=1&acc=d47a04c6f99456bc289220d5d0ff208d&i=5d16f25f49f937f625d0f749&o=5c6307106c28a3cb506899b7&gclid=CjwKCAjwn6GGBhADEiwAruUcKua-pYTpDxgy7nT_sMG8h2t8nBgPfQ2nBCj8RBLWxbNpnf3nlj3HCRoCUmMQAvD_BwE>
+<img width=130 src=sub.png></a>
+</td>
+<br>
+<h2>
+<br>REVIEWS<br>
+<br><a href=https://br.ign.com/ratchet-and-clank-ps4/21886/review/review-ratchet-clank><font color=white>IGN<br></a>
+<br><a href=https://www.techtudo.com.br/review/ratchet-clank.html><font color=white> TechTudo<br></a>
+<br><a href=https://www.metacritic.com/game/playstation-4/ratchet-clank><font color=white>Metacritic<br></a>
+<br><a href=https://www.theenemy.com.br/games/criticas/ratchet-clank-critica><font color=white>The Enemy<br></a>
+</h2> 
+<br>
+<h2>
+<br>TROFÉUS<br>
+<br>
+<br>Ratchet & Clank tem 47 troféus sendo: 1 platina, 2 troféus de ouro, 14 troféus de prata e 30 troféus de bronze.<br>
+<br>
+</h2>
+<body>
+    <div id="box_geral">
+        <div class="box1">
+        <p>Pegue todos os troféus em Ratchet & Clank.</p>
+        </div>
+        <div class="box2">
+        <p>Troféu relacionado a história, basta derrotar o boss final do jogo.</p>
+        </div>
+		<div class="box3">
+        <p>Complete todos os conjuntos de cartas holográficas. Para completar todos os sets de carta basta derrotar os inimigos que eles irão dropar cartas e coletar todas as cartas referentes a arma Rhyno.<br>
+		Sempre acesse o menu de cartas e quando tiver duplicadas troque por alguma que não tenha ainda.</p>
+        </div>
+		<div class="box4">
+        <p>Complete o Jogo no Modo de Desafio. Apenas complete o New Game+ que estará disponível após terminar o game pela primeira vez.</p>
+        </div>
+		<div class="box5">
+        <p> Pegue Todos os Parafusos de Ouro. Só será possível pegar a maioria dos Parafusos de Ouro após adquirir todos os Gadgets do Ratchet, então veja o vídeo abaixo com a localiza﻿ção de todos os Parafusos de Ouro.</p>
+        </div>
+		<div class="box6">
+        <p>Adquira Todas as Armas do Jogo. São 14 armas no game, 13 você adquiri no decorrer do game e na loja, a Rhyno você adquirir quando coletar todas as 9 cartas e trocar em Rilgar, o vídeo abaixo contém a localização de todas as 9 cartas.</p>
+        </div>
+		<div class="box7">
+        <p>Atualize Todas as Armas até o Nível Máximo. ﻿﻿ Es﻿se troféu só pode ser adquirido na segunda jogada, pois na primeira as armas vão até o level 5 e na segunda jogada que podem chegar ao seu level ﻿máximo que é 10. Na primeira jogada use b﻿astante todas as armas, tente deixar todas no nível 5 já na primeira jogada e na segunda jogada compre todas as armas Omegas e upe até o nível 10. Caso não consiga, inicie um 3° New Game só para terminar de upar ela﻿s﻿﻿.</p>
+        </div>
+		<div class="box8">
+        <p>Desbloqueie Todas as Modificações de Todas as Armas. Para﻿ desbloquear todas as modificações ﻿é preciso Raritanio, confor﻿me for upando as armas mais modificações vão ficando disponível. Esse troféu só será desbloquead﻿o após desbloquear a ultima modificação da sua última arma Omega na segunda ou terceira jogada.</p>
+        </div>
+		<div class="box9">
+        <p>Aumente a Energia de Ratchet até o Nível Máximo. ﻿﻿﻿ T﻿roféu vai vir com o tempo, apenas derrote todos os inimigos que tiver no caminho pra ir ganhando bastante XP﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿.</p>
+        </div>
+		<div class="box10">
+        <p>Adquira Todos os Dispositivos. ﻿﻿ T﻿odos os Dispositivos﻿ vão ser adquiridos na jogatina, apenas faça todos os objetivos de todas as fases, pois alguns objetivos te dão Dispositivos no fi﻿na﻿l﻿﻿﻿﻿﻿.</p>
+        </div>
+		<div class="box11">
+        <p>Pegue Todos o Cérebros do Telepatoides. ﻿﻿﻿﻿ O﻿s cérebros de Telepatóides podem ser adquiridos em Gaspar, os 30 primeiros são relacionados a história para poder adquirir Gadgets, os outros 60 é por sua conta sendo obrigatório apenas para quem quer pegar o troféu. R﻿ecomendo fazer na segunda jogada quando já tiver com as armas bem upadas pra facilitar muito sua vid﻿﻿a﻿﻿﻿﻿.</p>
+        </div>
+		<div class="box12">
+        <p>Vença a Taça de Ouro em Rilgar e Kalebo. Não é difícil vencer a gold cup em Rilgar e Kalebo, com certeza deve conseguir de primeira, pois o nível de ambas as corridas é bem fácil.</p>
+        </div>
+		<div class="box13">
+        <p>Complete Todos os Quebra-Cabeças do Invasor sem Usar AutoHack. No começo todos os Puzzles serão bem fáceis, mais para frente na jogatina alguns﻿ podem te dar um﻿ pouco﻿ de﻿ dor de cabeça, mas nada demais. Veja o vídeo abaixo para resolver todos﻿ caso﻿ tenha﻿﻿﻿ dúvidas﻿﻿﻿﻿﻿﻿﻿﻿.
+		<br>
+		PS: Este é um troféu perdível, já que usando o Autohack, só poderá pegar ele na segunda jogada. </p>
+        </div>
+		<div class="box14">
+        <p>Atualize uma Arma até o Nível Máximo. Esse troféu só será﻿ possível adquirir na segunda jogada e sendo obrigatório para quem busca a platina. Então para mais informações veja o t﻿ro﻿﻿féu Mestre da Guerra.﻿﻿﻿</p>
+		</div>
+		<div class="box15">
+        <p>Complete os Testes dos Patrulheiros em Veldin. Troféu relacionado a história, basta terminar o desafio dos guardiões.</p>
+        </div>
+		<div class="box16">
+        <p>Fuja de Victor em Quartu. Troféu relacionado a hist﻿ória, quando controlar Clank pela primeira vez basta fugir de Victor.</p>
+        </div>
+		<div class="box17">
+        <p>Salve o Prefeito e o Encanador em Novalis. Troféu relacionado à história.</p>
+        </div>
+		<div class="box18">
+        <p>Resgate Skidd e seu Agente em Aridia. Troféu relacionado a historia.</p>
+        </div>
+		<div class="box19">
+        <p>Torne-se um Patrulheiro em Kerwan. Troféu relacionado a historia.</p>
+        </div>
+		<div class="box20">
+        <p>Vença a Taça de Bronze da Corrida de Pranchas Voadoras em Rilga. Troféu relacionado a historia, não vai ter dor de cabeça, pois é a corrida mais fácil do jogo. </p>
+        </div>
+		<div class="box21">
+        <p>Derrote a Snagglebeast em Nebula G34. Troféu relacionado a historia</p>
+        </div>
+		<div class="box22">
+        <p>Pegue 30 Cérebros para o Cientista Blarg em Gaspar. Troféu relacionado a história.</p>
+        </div>
+		<div class="box23">
+        <p>Atire nas Naves de Guerra dos Blargs em Batalia. Troféu relacionado a história. Quando chegar ao final da fase você ira usar uma arma para destruir as aeronaves, destruindo todas as 5 o troféu é seu.</p>
+        </div>
+		<div class="box24">
+        <p>Derrote a Sra. Zurkon em Quartu. Troféu relacionado a historia.</p>
+        </div>
+		<div class="box25">
+        <p>Derrube as Hidrocoletoras em Pokitaru. Troféu relacionado a história.</p>
+        </div>
+		<div class="box26">
+        <p>Derrote Victor na Fênix. Troféu relacionadodo a hi﻿stória.</p>
+        </div>
+		<div class="box27">
+        <p>Vença a Taça de Bronze da Corrida de Pranchas Voadoras em Kalebo. Troféu relacionado a história, outra corrida fácil que não vai ter nenhuma dor de cabeça.</p>
+        </div>
+		<div class="box28">
+        <p>Derrote o Capitão Qwark no Desplanetizador. Troféu relacionado a historia</p>
+        </div>
+		<div class="box29">
+        <p>Complete a Taça de Ouro da Corrida de Pranchas Voadoras de Rilgar em Menos de 1:35. Fazer essa corrida em menos de 1:35 pode ser um pouco frustrante e demorado, mas decore a pista e tente não perder os boost, pois só com eles vai ser possível fazer nesse tempo.</p>
+        </div>
+		<div class="box30">
+        <p>Complete a Taça de Ouro da Corrida de Pranchas Voadoras de Kalebo em Menos de 2:05.  Essa corrida é mais tranquila de se fazer do que em Rilga, pelo simples fato de termos um atalho, então nas 3 voltas use o atalho e vá sempre fazendo manobras para adquirir boost.</p>
+        </div>
+		<div class="box31">
+        <p>Complete o Curso de Ginástica de Kerwan em Menos de 70 Segundos. Quando for pra Kerwan terá que fazer um treinamento de herói, basta apenas fazer o percurso em menos de 70 segundos, é bem fácil e possivelmente pode conseguir de primeira tentativa, pois os obstáculos não são difíceis, apenas tente não cair. Caso não consiga na primeira é possível tentar quantas vezes quiser, basta ir ao início do percurso.</p>
+        </div>
+		<div class="box32">
+        <p>Esmague 5 Gadgebots no Triturador em Quartu. Em Q﻿uartu logo no início da fase você irá controlar Clank, em uma certa parte vamos ter uma sequência de trituradores, basta jogar 5 Gadge﻿bots lá e deixar serem destruído﻿﻿﻿﻿s﻿.</p>
+        </div>
+		<div class="box33">
+        <p>Derrube um Constructobot na Areia Movediça em Aridia. Para derrubar um constructor na areia movediça, apenas deixe ele bem na beirada de onde tenha areia movediça e derrube ele.</p>
+        </div>
+		<div class="box34">
+        <p>Quebre Todas as Lâmpadas de Aleero. ﻿Tro﻿féu simples e fác﻿il, conforme ﻿for andand﻿o por Aleero City vá destruin﻿do todas lâmpadas/poste﻿s ﻿q﻿ue ve﻿r.</p>
+        </div>
+		<div class="box35">
+        <p>Deixe que os Robôs Exterminadores Eliminem 35 Ameboides em Rilgar. E﻿m Rilgar você vai ver vários hom﻿enzinhos amare﻿los lutando contra umas amebas, não interifa, deixe os homenzinho amarelos derrotar elas e vai ganhar o troféu.</p>
+        </div>
+		<div class="box36">
+        <p>Derrote 40 Inimigos Viajando com o Propulsor em Gaspar. E﻿m Gaspar logo após adquirir o JetPack vá até os inimigos e fique no ar e derrote eles, ao derrotar 40 desse jeito o troféu é s﻿eu.</p>
+        </div>
+		<div class="box37">
+        <p>Use o Ovelhador em um Blarg Pilotando Helicóptero. Quando tiver a arma que transforma inimigos em ovelhas utilize ela em um daqueles mini helicópteros e transforme ele em Ovelha.</p>
+        </div>
+		<div class="box38">
+        <p>Destrua 10 Robôs de Guerra Inativos Dentro da Fábrica de Quartu. Em Quartu você vai ver várias esteiras com robôs inativos, basta destruir 10 deles e o troféu é seu.</p>
+        </div>
+		<div class="box39">
+        <p>Seja Devorado por um Tubarão de Piscina no Oceano de Pokitaru. Em Pokitaru caia na água, nade até o mais longe que der e espere um tubarão te devorar.</p>
+        </div>
+		<div class="box40">
+        <p>Destrua Todas as Maquetes de Planeta do Escritório do Drek. Em Desplanetizer você vai chegar em uma sala com várias maquetes de planetas ao redor, destrua todos eles e o troféu é seu.</p>
+        </div>
+		<div class="box41">
+        <p>Encontre o Lounge do Qwark no Desplanetizador. Troféu só pode ser adquirido ao terminar a história. Após terminar o game pela primeira vez, no menu inicial selecione continue e use o Hologram de Qwark, vá até as portas que tem a imagem de um cadeado e fique parado e logo irá ouvir Qwark falando, quando ele terminar todas as frases vai desbloquear o troféu. </p>
+        </div>
+		<div class="box42">
+        <p>Ande, Sem se Mover, em Todas as Esteiras de Kalebo. E﻿m﻿﻿ ﻿Kaleb﻿o III você vai ver várias esteiras, basta ir bem no começo dela e deixar ela te levar até o final, não ande, deixe a esteira te l﻿evar.</p>
+        </div>
+		<div class="box43">
+        <p>Use o Groovitron em Todos os Tipos de Inimigos. Eis o troféu mais chato do jogo, usar a arma Groovitron em todos os inimigos disponíveis do jogo. São 48 inimigos incluindo Bosses e randoms, ﻿então ﻿para não perder nenhum siga o vídeo a﻿baix﻿﻿o (44:57). Recomendado fazer na segunda jogada.</p>
+        </div>
+		<div class="box44">
+        <p>Complete seu Primeiro Conjunto de Cartas Holográficas. Cada Set d﻿e Holocard é co﻿m﻿posto por 3 cartas, sempre que pegar cartas entre no menu de cartas para ver se algum card foi completo.﻿﻿﻿﻿﻿</p>
+        </div>
+		<div class="box45">
+        <p>Complete sua Primeira Modificação de Armas com Raritânio. Vá na loja Gadgetron e faça um upgrade com Raritanium, pode ser feito logo no começo do jogo.</p>
+        </div>
+		<div class="box46">
+        <p>Atinja o Máximo Multiplicador de Parafusos no Modo de Desafio. Esse troféu só pode ser adquirido na segunda jogada (Challenge Mode). Ao ir derrotando inimigos vai ver que um multiplicador vai ficar ao lado da quantidade de parafusos que você tem, basta colocar o multiplicador em vinte, pra isso é só ir derrotando inimigos sem tomar dano. Recomendo fazer em Aridia logo na missão em que deve derrotar os Tubarões que ficam na areia.</p>
+        </div>
+		<div class="box47">
+        <p>Troque um Conjunto de Cartas Holográficas Repetidas por um Novo. C﻿onforme for jogando você vai pegar várias cartas, quando coletar 5 cartas duplicadas basta acessar o menu de cartas, apertar triângulo e trocar por uma carta que ainda não t﻿em.<br>
+		PS: Se você obter todas as cartas sem ter trocado nenhuma vez, você perderá a chance de trocar, logo, perderá o troféu.
+		Bem difícil que isso aconteça, mas não impossível.</p>
+        </div>
+        </div>
+</body>
+<center>
+<h2>
+<br>GUIA DE COLETÁVEIS<br>
+</h2>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ehBfa5ljtsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br><h2>INFORMAÇÕES DO JOGO</h2><br>
+<br>SÉRIE: Ratchet & Clank<br>
+<br>ESTÚDIO: Insomniac Games<br>
+<br>LANÇAMENTO: 12/04/2016<br>
+<br>PLATAFORMA: PlayStation 4<br>
+<br>GÊNERO: Shooter em Terceira Pessoa, Plataforma<br>
+<br>TAMANHO: 26.30 GB<br>
+<br>HORAS DE JOGO ESTIMADAS(EXCLUINDO EXPANSÕES): 20-25 horas<br>
+</center>
+</html>
